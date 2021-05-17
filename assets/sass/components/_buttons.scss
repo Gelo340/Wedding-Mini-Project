@@ -12,4 +12,8 @@
   &.btn--secondary {
     background: $COLOR_PINK;
   }
+  &.btn--tertiary {
+    background: $COLOR_WHITE_TEXT;
+    color: $COLOR_DARK_BLUE;
+  }
 }

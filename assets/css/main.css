@@ -506,6 +506,11 @@ p {
   background: #eaa0a2;
 }
 
+.btn.btn--tertiary {
+  background: #ffffff;
+  color: #3a4664;
+}
+
 #hero .hero__title {
   font-family: "Redressed", cursive;
   font-size: 66px;
