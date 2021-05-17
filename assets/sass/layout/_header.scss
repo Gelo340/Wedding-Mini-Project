@@ -1,0 +1,17 @@
+#header {
+  background: $COLOR_DARK_BLUE;
+
+  .header__menu {
+    height: 48px;
+    width: 48px;
+  }
+  .header__logo {
+    color: $COLOR_WHITE_TEXT;
+    font-family: $SECONDARY_FONT;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .header__row {
+    padding: 15px 15px 0;
+  }
+}

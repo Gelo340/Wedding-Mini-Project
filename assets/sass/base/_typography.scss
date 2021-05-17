@@ -1,0 +1,34 @@
+body {
+  font-family: $MAIN_FONT;
+  color: $COLOR_GREY_TEXT;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section__title {
+  color: $COLOR_PINK;
+  font-family: $MAIN_FONT;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.section__sub-title {
+  color: $COLOR_DARK_BLUE;
+  font-family: $SECONDARY_FONT;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+h3 {
+  color: $COLOR_DARK_BLUE;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,13 @@
+#hero {
+  .hero__title {
+    font-family: $SECONDARY_FONT;
+    font-size: 66px;
+    font-weight: 400;
+    color: $COLOR_WHITE_TEXT;
+    max-width: 329px;
+  }
+  .hero__bg-img {
+    height: 431px;
+    width: 300px;
+  }
+}
