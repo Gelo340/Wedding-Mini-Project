@@ -5,6 +5,14 @@
   justify-content: space-between;
 }
 
+.flex-d__column {
+  flex-direction: column;
+}
+
+.align-i__center {
+  align-items: center;
+}
+
 .d-flex {
   display: flex;
 }

@@ -21,12 +21,12 @@
   <body>
     <header id="header">
       <div class="container">
-        <div class="row">
-          <div class="column">
+        <div class="row header__row">
+          <div class="column d-flex">
             <a href="#" class="header__menu"
               ><img src="./assets/img/menu.png" alt="menu"
             /></a>
-            <span class="header__logo">WDG</span>
+            <div class="header__logo">WDG</div>
             <a href="#" class="header__btn btn btn--primary">CONTACT US</a>
           </div>
         </div>
@@ -42,7 +42,7 @@
             </h1>
             <a href="#" class="hero__btn btn btn--secondary">OUR SERVICES</a>
           </div>
-          <div class="column bg__pink">
+          <div class="column bg__pink d-flex justify-c__center">
             <img
               src="./assets/img/bg--img.png"
               alt="her__bg-img"
@@ -55,8 +55,10 @@
     <section id="features">
       <div class="container">
         <div class="row">
-          <div class="section__title">OUR FEATURES</div>
-          <div class="section__sub-title">Planning entire weddings</div>
+          <div class="column">
+            <div class="section__title">OUR FEATURES</div>
+            <div class="section__sub-title">Planning entire weddings</div>
+          </div>
           <div class="column">
             <h3>Professional</h3>
             <p>
@@ -86,46 +88,50 @@
       <div class="container">
         <div class="row">
           <div class="column">
-            <img src="" alt="" />
+            <img
+              src="./assets/img/about-our-agency-pic.png"
+              alt="about-our-agency-pic"
+              class="about-our-agency__img"
+            />
           </div>
           <div class="column">
             <div class="section__title">ABOUT OUR AGENCY</div>
             <div class="section__sub-title">
               Brainstorms style ideas and design details
             </div>
-            <div class="row">
-              <div class="column">
-                <h3>Consultants</h3>
-                <p>Professional who assists with the design, planning.</p>
-              </div>
-              <div class="column">
-                <h3>Assisting</h3>
-                <p>
-                  Management of a client's wedding. Weddings are significant
-                  events.
-                </p>
-              </div>
-            </div>
           </div>
           <div class="column">
-            <div class="row">
-              <div class="column-6">
-                <div class="about-our-agency__experience-num">42%</div>
-                <div class="about-our-agency__experience">Best Clients</div>
-              </div>
-              <div class="column-6">
-                <div class="about-our-agency__experience-num">73</div>
-                <div class="about-our-agency__experience">Vendor Contracts</div>
-              </div>
-              <div class="column-6">
-                <div class="about-our-agency__experience-num">500</div>
-                <div class="about-our-agency__experience">Schedules</div>
-              </div>
-              <div class="column-6">
-                <div class="about-our-agency__experience-num">9+</div>
-                <div class="about-our-agency__experience">Experience</div>
-              </div>
-            </div>
+            <h3>Consultants</h3>
+            <p>Professional who assists with the design, planning.</p>
+          </div>
+          <div class="column">
+            <h3>Assisting</h3>
+            <p>
+              Management of a client's wedding. Weddings are significant events.
+            </p>
+          </div>
+        </div>
+        <hr class="about-our-agency__hl" />
+        <div class="row about-our-agency__mr">
+          <div
+            class="column-6 d-flex align-i__center flex-d__column mr-bottom_78"
+          >
+            <div class="about-our-agency__experience-rate">42%</div>
+            <div class="about-our-agency__experience">Best Clients</div>
+          </div>
+          <div
+            class="column-6 d-flex align-i__center flex-d__column mr-bottom_78"
+          >
+            <div class="about-our-agency__experience-rate">73</div>
+            <div class="about-our-agency__experience">Vendor Contracts</div>
+          </div>
+          <div class="column-6 d-flex align-i__center flex-d__column">
+            <div class="about-our-agency__experience-rate">500</div>
+            <div class="about-our-agency__experience">Schedules</div>
+          </div>
+          <div class="column-6 d-flex align-i__center flex-d__column">
+            <div class="about-our-agency__experience-rate">9+</div>
+            <div class="about-our-agency__experience">Experience</div>
           </div>
         </div>
       </div>
@@ -134,8 +140,10 @@
       <div class="container">
         <div class="row">
           <div class="column">
-            <div class="section__title"></div>
-            <div class="section__sub-title"></div>
+            <div class="section__title">Wedding Service</div>
+            <div class="section__sub-title">
+              Role of a wedding planner agency
+            </div>
             <a href="#" class="wedding-service__btn btn btn--secondary"
               >READ MORE</a
             >
@@ -207,6 +215,8 @@
             <div class="section__title">PORTFOLIO</div>
             <div class="section__sub-title">Our Wedding Memories</div>
           </div>
+        </div>
+        <div class="row">
           <div class="column">
             <img src="./assets/img/video-clip.png" alt="video-clip" />
             <p>
@@ -242,22 +252,38 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="how-we-work__num"></div>
+            <img
+              src="./assets/img/how-we-work-img.png"
+              alt="how-we-work-img"
+              class="how-we-work__num"
+            />
             <h3>Discussing</h3>
             <p>Planners are responsible for assisting clients in planning.</p>
           </div>
           <div class="column">
-            <div class="how-we-work__num"></div>
+            <img
+              src="./assets/img/how-we-work-img.png"
+              alt="how-we-work-img"
+              class="how-we-work__num"
+            />
             <h3>Vendors</h3>
             <p>Weddings or specific wedding activities. They discuss.</p>
           </div>
           <div class="column">
-            <div class="how-we-work__num"></div>
+            <img
+              src="./assets/img/how-we-work-img.png"
+              alt="how-we-work-img"
+              class="how-we-work__num"
+            />
             <h3>Photographer</h3>
             <p>Wedding logistics with clients, negotiate vendor contracts.</p>
           </div>
           <div class="column">
-            <div class="how-we-work__num"></div>
+            <img
+              src="./assets/img/how-we-work-img.png"
+              alt="how-we-work-img"
+              class="how-we-work__num"
+            />
             <h3>Budget</h3>
             <p>Ensure that wedding-day activities run smoothly.</p>
           </div>
@@ -267,22 +293,31 @@
     <section id="video-about-us">
       <div class="container">
         <div class="row">
-          <div class="section__title">Video About Us</div>
-          <div class="section__sub-title">
-            Significant events in people's lives
+          <div class="column">
+            <div class="section__title">Video About Us</div>
+            <div class="section__sub-title">
+              Significant events in people's lives
+            </div>
+            <p>
+              The wedding planner should be the liaison between all the vendors
+              and the bride/groom on the day of the wedding.
+            </p>
           </div>
-          <p>
-            The wedding planner should be the liaison between all the vendors
-            and the bride/groom on the day of the wedding.
-          </p>
-        </div>
-        <div class="row">
-          <div class="column"></div>
+          <div class="column">
+            <img
+              src="./assets/img/video-about-us-pic.png"
+              alt="video-about-us-pic"
+              class="video-about-us__pic"
+            />
+          </div>
         </div>
         <div class="row">
           <div class="column">
-            <div class="video-about-us__contact"></div>
-            <p></p>
+            <div class="video-about-us__contact">Contact Us Now</div>
+            <p>
+              Planner should be the liaison between all the vendors and the
+              bride.
+            </p>
             <a href="#" class="video-about-us__btn btn btn--primary"
               >SERVICES</a
             >
@@ -296,8 +331,10 @@
     <section id="our-team">
       <div class="container">
         <div class="row">
-          <div class="section__title">Our Team</div>
-          <div class="section__sub-title">We are professional's</div>
+          <div class="column">
+            <div class="section__title">Our Team</div>
+            <div class="section__sub-title">We are professional's</div>
+          </div>
         </div>
         <div class="row">
           <div class="column">
@@ -312,15 +349,8 @@
               alt="our-team__pic"
               class="our-team__pic"
             />
-            <h3></h3>
-            <p></p>
-            <img
-              src="./assets/img/our-team__pic.png"
-              alt="our-team__pic"
-              class="our-team__pic"
-            />
-            <h3></h3>
-            <p></p>
+            <h3>Anna Fali</h3>
+            <p>Planner</p>
             <a href="#"
               ><img
                 src="./assets/img/arrow-left.png"
@@ -417,12 +447,14 @@
           <div class="column">
             <div class="section__title">YOUR BUDGET</div>
             <div class="section__sub-title">What is your wedding budget</div>
-            <div class="budget__price"></div>
+            <div class="budget__price">$5,000</div>
             <img src="" alt="" />
             <a href="#" class="your-budget__btn btn btn--primary"
               >GET STARTED</a
             >
           </div>
+        </div>
+        <div class="row">
           <div class="column">
             <h3>What is the role of a wedding planner?</h3>
             <img
@@ -455,51 +487,43 @@
               class="your-budget__plus"
             />
           </div>
-          <div class="column">
-            <div class="row">
-              <div class="column">
-                <p>Famous Partners</p>
-              </div>
-              <div class="column">
-                <div class="row">
-                  <div class="column-6">
-                    <img
-                      src="./assets/img/bitmap-5.png"
-                      alt="company-1"
-                      class="your-budget__company"
-                    />
-                  </div>
-                  <div class="column-6">
-                    <img
-                      src="./assets/img/bitmap-4.png"
-                      alt="company-2"
-                      class="your-budget__company"
-                    />
-                  </div>
-                  <div class="column-6">
-                    <img
-                      src="./assets/img/bitmap-3.png"
-                      alt="company-3"
-                      class="your-budget__company"
-                    />
-                  </div>
-                  <div class="column-6">
-                    <img
-                      src="./assets/img/bitmap-2.png"
-                      alt="company-4"
-                      class="your-budget__company"
-                    />
-                  </div>
-                  <div class="column-6">
-                    <img
-                      src="./assets/img/bitmap-1.png"
-                      alt="company-5"
-                      class="your-budget__company"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="row">
+          <div class="column"><p>Famous Partners</p></div>
+          <div class="column-6">
+            <img
+              src="./assets/img/bitmap-5.png"
+              alt="company-1"
+              class="your-budget__company"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/bitmap-4.png"
+              alt="company-2"
+              class="your-budget__company"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/bitmap-3.png"
+              alt="company-3"
+              class="your-budget__company"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/bitmap-2.png"
+              alt="company-4"
+              class="your-budget__company"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/bitmap-1.png"
+              alt="company-5"
+              class="your-budget__company"
+            />
           </div>
         </div>
       </div>
@@ -552,11 +576,21 @@
           </div>
           <div class="column">
             <form action="#">
-              <div><label for="email">NEWSLETTER</label></div>
-              <input type="email" id="email" name="email" />
+              <div>
+                <label for="email" class="blog-and-news__news-letter"
+                  >NEWSLETTER</label
+                >
+              </div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                class="blog-and-news__email"
+              />
               <div>
                 <input
-                  class="blog-and-news__submit-btn"
+                  class="blog-and-news__submit-btn btn btn--tertiary"
                   type="submit"
                   value="SUBSCRIBE"
                 />
@@ -645,51 +679,47 @@
               #WEDDING
             </button>
           </div>
-          <div class="column">
-            <div class="row">
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-              <div class="column-6">
-                <img
-                  src="./assets/img/get-in-touch-img.png"
-                  alt="get-in-touch-img"
-                  class="get-in-touch__img"
-                />
-              </div>
-            </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
+          </div>
+          <div class="column-6">
+            <img
+              src="./assets/img/get-in-touch-img.png"
+              alt="get-in-touch-img"
+              class="get-in-touch__img"
+            />
           </div>
         </div>
       </div>

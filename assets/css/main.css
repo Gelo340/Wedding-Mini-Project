@@ -154,6 +154,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 3px;
+  line-height: 32px;
 }
 
 .section__sub-title {
@@ -161,17 +162,21 @@ a {
   font-family: "Redressed", cursive;
   font-weight: 400;
   font-size: 50px;
+  line-height: 48px;
 }
 
 h3 {
   color: #3a4664;
   font-weight: 700;
   font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 19px;
 }
 
 p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 32px;
 }
 
 .justify-c__center {
@@ -180,6 +185,14 @@ p {
 
 .justify-c__space-between {
   justify-content: space-between;
+}
+
+.flex-d__column {
+  flex-direction: column;
+}
+
+.align-i__center {
+  align-items: center;
 }
 
 .d-flex {
@@ -195,16 +208,43 @@ p {
 }
 
 .container {
-  width: 1170px;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .container-fluid {
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
 
 .row {
@@ -213,12 +253,6 @@ p {
   margin-left: -15px;
   margin-right: -15px;
   padding: 0 15px;
-}
-
-@media screen and (min-width: 1200px) {
-  .row {
-    padding: 0;
-  }
 }
 
 .column {
@@ -476,6 +510,7 @@ p {
 #header .header__menu {
   height: 48px;
   width: 48px;
+  margin-right: 15px;
 }
 
 #header .header__logo {
@@ -483,16 +518,21 @@ p {
   font-family: "Redressed", cursive;
   font-weight: 400;
   font-size: 50px;
+  margin-right: 15px;
 }
 
 #header .header__row {
   padding: 15px 15px 0;
 }
 
+#header .column:not(:last-child) {
+  margin-right: 15px;
+}
+
 .btn {
   font-size: 16px;
   font-weight: 700;
-  padding: 14px 30px;
+  padding: 14px 26px;
   border-radius: 24px;
   color: #ffffff;
 }
@@ -511,16 +551,90 @@ p {
   color: #3a4664;
 }
 
+#hero .section__title {
+  margin-top: 59px;
+  margin-bottom: 15px;
+}
+
 #hero .hero__title {
   font-family: "Redressed", cursive;
   font-size: 66px;
   font-weight: 400;
   color: #ffffff;
   max-width: 329px;
+  margin-bottom: 38px;
+}
+
+#hero .hero__btn {
+  display: inline-block;
+  margin-bottom: 176px;
 }
 
 #hero .hero__bg-img {
   height: 431px;
   width: 300px;
+  margin-top: 57px;
+  margin-bottom: 56px;
+}
+
+#features .section__title {
+  margin-top: 91px;
+  margin-bottom: 12px;
+}
+
+#features .section__sub-title {
+  margin-bottom: 65px;
+}
+
+#features p {
+  margin-bottom: 25px;
+}
+
+#about-our-agency .about-our-agency__img {
+  width: 330px;
+  height: 330px;
+  margin-top: 151px;
+  margin-bottom: 50px;
+}
+
+#about-our-agency .section__title {
+  margin-bottom: 12px;
+}
+
+#about-our-agency .section__sub-title {
+  margin-bottom: 49px;
+}
+
+#about-our-agency p {
+  margin-bottom: 25px;
+}
+
+#about-our-agency .about-our-agency__hl {
+  border: 2px solid #3a4664;
+  margin-top: 121px;
+}
+
+#about-our-agency .about-our-agency__mr {
+  margin-top: 85px;
+  margin-bottom: 67px;
+}
+
+#about-our-agency .mr-bottom_78 {
+  margin-bottom: 78px;
+}
+
+#about-our-agency .about-our-agency__experience-rate {
+  font-family: "Redressed", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #3a4664;
+  margin-bottom: 2px;
+}
+
+#about-our-agency .about-our-agency__experience {
+  font-weight: 400;
+  font-size: 20px;
+  color: #3a4664;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,13 +1,79 @@
 #hero {
+  .section__title {
+    margin-top: 59px;
+    margin-bottom: 15px;
+  }
   .hero__title {
     font-family: $SECONDARY_FONT;
     font-size: 66px;
     font-weight: 400;
     color: $COLOR_WHITE_TEXT;
     max-width: 329px;
+    margin-bottom: 38px;
+  }
+  .hero__btn {
+    display: inline-block;
+    margin-bottom: 176px;
   }
   .hero__bg-img {
     height: 431px;
     width: 300px;
+    margin-top: 57px;
+    margin-bottom: 56px;
+  }
+}
+
+#features {
+  .section__title {
+    margin-top: 91px;
+    margin-bottom: 12px;
+  }
+  .section__sub-title {
+    margin-bottom: 65px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+}
+
+#about-our-agency {
+  .about-our-agency__img {
+    width: 330px;
+    height: 330px;
+    margin-top: 151px;
+    margin-bottom: 50px;
+  }
+  .section__title {
+    margin-bottom: 12px;
+  }
+  .section__sub-title {
+    margin-bottom: 49px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+  .about-our-agency__hl {
+    border: 2px solid $COLOR_DARK_BLUE;
+    margin-top: 121px;
+  }
+  .about-our-agency__mr {
+    margin-top: 85px;
+    margin-bottom: 67px;
+  }
+  .mr-bottom_78 {
+    margin-bottom: 78px;
+  }
+  .about-our-agency__experience-rate {
+    font-family: $SECONDARY_FONT;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 48px;
+    color: $COLOR_DARK_BLUE;
+    margin-bottom: 2px;
+  }
+  .about-our-agency__experience {
+    font-weight: 400;
+    font-size: 20px;
+    color: $COLOR_DARK_BLUE;
   }
 }
