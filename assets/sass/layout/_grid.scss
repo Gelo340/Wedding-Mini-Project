@@ -44,9 +44,18 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.row .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.column {
   padding: 0 15px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 // .row {
@@ -55,11 +64,10 @@
 //   margin-top: -30px;
 // }
 
-.column {
-  padding: 0 15px;
-  width: 100%;
-  // margin-top: 30px;
-}
+// .column {
+//   padding: 0 15px;
+//   width: 100%;
+// margin-top: 30px;
 
 // .row .row {
 //   margin-left: -15px;

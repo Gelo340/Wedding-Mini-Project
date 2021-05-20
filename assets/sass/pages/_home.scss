@@ -1,4 +1,6 @@
 #hero {
+  // height: 100vh;
+  // min-height: 900px;
   .section__title {
     margin-top: 59px;
     margin-bottom: 15px;
@@ -75,5 +77,84 @@
     font-weight: 400;
     font-size: 20px;
     color: $COLOR_DARK_BLUE;
+  }
+}
+
+.about-our-agency__hl {
+  border: 2px solid $COLOR_DARK_BLUE;
+}
+
+#video-about-us {
+  .video-about-us__pic {
+    height: 125px;
+    width: 329px;
+  }
+}
+
+#wedding-service {
+  .section__title {
+    margin-top: 93px;
+    margin-bottom: 12px;
+  }
+  .section__sub-title {
+    margin-bottom: 36px;
+  }
+  p {
+    margin-bottom: 45px;
+  }
+  .wedding-service__pic {
+    margin-top: 90px;
+    margin-bottom: 188px;
+  }
+  .wedding-service__card {
+    border-radius: 16px;
+    background: $COLOR_WHITE_TEXT;
+    text-align: center;
+    height: 416px;
+    width: 329px;
+    padding-right: 28px;
+    padding-bottom: 32px;
+    padding-left: 29px;
+  }
+  .wedding-service__champagne-glass {
+    height: 96px;
+    width: 81px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  .wedding-service__wedding-suit {
+    width: 96px;
+    height: 87px;
+    margin: 0 auto;
+    margin-top: 68px;
+    margin-bottom: 45px;
+    display: inline-block;
+  }
+  .wedding-service__wedding-cake {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  .wedding-service__wedding-rings {
+    width: 96px;
+    height: 86px;
+    margin: 0 auto;
+    margin-top: 69px;
+    margin-bottom: 45px;
+    display: inline-block;
+  }
+}
+
+#portfolio {
+  .section__title {
+    margin-bottom: 12px;
+  }
+  .section__sub-title {
+    margin-bottom: 59px;
   }
 }
