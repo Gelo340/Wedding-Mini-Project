@@ -733,11 +733,127 @@ p {
   display: inline-block;
 }
 
+#portfolio .box {
+  margin-bottom: 128px;
+}
+
 #portfolio .section__title {
   margin-bottom: 12px;
 }
 
 #portfolio .section__sub-title {
   margin-bottom: 59px;
+}
+
+#portfolio .portfolio__video-clip {
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+
+#portfolio p {
+  margin-bottom: 16px;
+}
+
+#portfolio .portfolio__arrow-left {
+  border-radius: 50%;
+  border: 1px solid #3a4664;
+  padding: 16px 12px 17px 12px;
+  display: inline-block;
+}
+
+#portfolio .portfolio__arrow-right {
+  border-radius: 50%;
+  border: 1px solid #3a4664;
+  padding: 16px 12px 17px 12px;
+  display: inline-block;
+}
+
+#how-we-work .row {
+  margin-bottom: 73px;
+}
+
+#how-we-work .section__title {
+  margin-top: 155px;
+}
+
+#how-we-work .section__sub-title {
+  text-align: center;
+}
+
+#how-we-work h3 {
+  text-align: left;
+}
+
+#how-we-work p {
+  width: 270px;
+  height: 68px;
+  margin: 0 auto;
+}
+
+#how-we-work .how-we-work__num {
+  margin-bottom: 24px;
+}
+
+#video-about-us {
+  text-align: center;
+}
+
+#video-about-us .row {
+  margin-top: 83px;
+  margin-bottom: 149px;
+}
+
+#video-about-us .section__title {
+  margin-bottom: 12px;
+}
+
+#video-about-us .section__sub-title {
+  margin-bottom: 36px;
+}
+
+#contact-us .row {
+  margin-bottom: 266px;
+}
+
+#contact-us .box {
+  background: #3a4664;
+}
+
+#contact-us .video-about-us__contact {
+  font-family: "Redressed", cursive;
+  font-size: 50px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+#contact-us p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(58, 70, 100, 0.5);
+}
+
+#our-team .section__title {
+  margin-bottom: 12px;
+}
+
+#our-team .section__sub-title {
+  margin-bottom: 20px;
+}
+
+#our-founder .row {
+  margin-top: 160px;
+}
+
+#our-founder .section__title {
+  margin-bottom: 12px;
+}
+
+#our-founder .section__sub-title {
+  margin-bottom: 20px;
+}
+
+#our-founder p {
+  margin-bottom: 17px;
 }
 /*# sourceMappingURL=main.css.map */
